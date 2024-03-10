@@ -1,0 +1,28 @@
+Написать мини сайт для оператора доставки на ASP c DB(MSSQL, Postgree or etc.)
+
+На сайте должна быть поля для ввода 
+
+- name
+- surname
+- phone number
+- address
+- order
+- count
+- note
+
+Кнопка для добавления заказа
+
+список заказов
+
+chekbox в списке заказов - доставлено
+
+- isDelivered
+
+потом поднять это все с помощью docker compose как контейнеры
+
+отправить папку с проектом и с файлом docker compose
+
+должна быть как минимум два контейнера - ASP и DB(MSSQL, Postgree or etc.)
+или три контейнера в случае с UI - ASP, Node и DB(MSSQL, Postgree or etc.)
+
+переброска томов и переброска портов
